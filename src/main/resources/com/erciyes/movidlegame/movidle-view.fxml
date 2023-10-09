@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="830.0" style="-fx-background-color: #2B2D41;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.erciyes.movidlegame.MovidleController">
+    <children>
+        <TextField fx:id="guessText" layoutX="265.0" layoutY="35.0" onKeyPressed="#pressedEnter" style="-fx-background-color: #8D99AE;" />
+        <Button fx:id="btnChk" layoutX="415.0" layoutY="35.0" mnemonicParsing="false" onAction="#clickedBtn" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #F0223C;" text="Check" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font></Button>
+        <Label fx:id="lbl1" alignment="CENTER" layoutX="14.0" layoutY="100.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: #F0223C;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl2" alignment="CENTER" layoutX="149.0" layoutY="100.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl3" alignment="CENTER" layoutX="283.0" layoutY="100.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl4" alignment="CENTER" layoutX="420.0" layoutY="100.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl5" alignment="CENTER" layoutX="557.0" layoutY="100.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl6" alignment="CENTER" layoutX="694.0" layoutY="100.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl7" alignment="CENTER" layoutX="14.0" layoutY="208.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl8" alignment="CENTER" layoutX="149.0" layoutY="208.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl9" alignment="CENTER" layoutX="283.0" layoutY="208.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl10" alignment="CENTER" layoutX="420.0" layoutY="208.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl11" alignment="CENTER" layoutX="557.0" layoutY="208.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl12" alignment="CENTER" layoutX="694.0" layoutY="208.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl13" alignment="CENTER" layoutX="14.0" layoutY="317.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl14" alignment="CENTER" layoutX="149.0" layoutY="317.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl15" alignment="CENTER" layoutX="283.0" layoutY="317.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl16" alignment="CENTER" layoutX="420.0" layoutY="317.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl17" alignment="CENTER" layoutX="557.0" layoutY="317.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl18" alignment="CENTER" layoutX="694.0" layoutY="317.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl19" alignment="CENTER" layoutX="14.0" layoutY="427.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl20" alignment="CENTER" layoutX="149.0" layoutY="427.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl21" alignment="CENTER" layoutX="283.0" layoutY="427.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl22" alignment="CENTER" layoutX="420.0" layoutY="427.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl23" alignment="CENTER" layoutX="557.0" layoutY="427.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl24" alignment="CENTER" layoutX="694.0" layoutY="427.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl25" alignment="CENTER" layoutX="14.0" layoutY="536.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl26" alignment="CENTER" layoutX="149.0" layoutY="536.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl27" alignment="CENTER" layoutX="283.0" layoutY="536.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl28" alignment="CENTER" layoutX="420.0" layoutY="536.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl29" alignment="CENTER" layoutX="557.0" layoutY="536.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lbl30" alignment="CENTER" layoutX="694.0" layoutY="536.0" prefHeight="100.0" prefWidth="120.0" style="-fx-background-color: red;" text="The Avatar" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="movidle" layoutX="27.0" layoutY="33.0" text="Movidle" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="skor" layoutX="677.0" layoutY="32.0" text="Skorunuz: 0" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="restartBtn" layoutX="527.0" layoutY="35.0" mnemonicParsing="false" onAction="#clickedrstBtn" style="-fx-background-color: #F0223C;" text="⟲" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
